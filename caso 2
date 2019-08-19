@@ -1,0 +1,30 @@
+CASO DE USO 2
+
+-CDU :BUSQUEDA DE INFORMACION
+
+-fecha : 1/0 18.08.2019
+
+-Dependencia ::
+	- Todo los metodo de contacto con la empresa estan habilitados
+	- Contar con el personal suficiente
+-Precondición ::
+	- Preparacion especifica del personal. 
+	
+
+-Descripción ::
+	- caso de contacto del cliente con el fin de tener informacion
+-Secuencia Normal ::
+	1.el cliente llama o escribe buscando informacion. 
+	2.El recepcionista le brinda la informacion basica
+	 2.1 se buscan lo diversos metodos de ayuda
+	 
+	3.se proporciona la ayuda solicitada
+	
+	 
+
+
+
+-Excepción ::
+- No exista solucion al problema
+Comentario ::
+	- es importante estar pendientes de la necesidad del cliente

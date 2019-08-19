@@ -1,0 +1,35 @@
+ APRENDAMOS SA de CV
+CASO DE USO 1
+
+-CDU :CMIENZO DE LOS CURSOS
+
+-fecha : 1/0 18.08.2019
+
+-Dependencia ::
+	- preparar todo para el nuevo curso nuevo curso.
+	- Estudiantes este registrados correctamente en la empresa.
+	- Que ya se tenga el personal docente preparado
+	
+-Precondición ::
+	- Verificar que los estudiantes esten matriculados en la empresa
+	- Verificar que los maestros esten con la empresa
+
+-Descripción ::
+	- caso de funcionamiento normal de para adquirir un nuevo cliente
+-Secuencia Normal ::
+	1.se abren cupos pera nuevos cursos 
+	2.Ir a nuevos cursos maestro y estudiantes
+	 2.1 Los maestros hacen el debido procedimiento para empezar a trabajar
+	 2.2 Los estudiantes seleccionan el curso a matricular
+	3.Se hablitara tambien estudios para nuevos cursos por parte de maestro y estudiantes
+	
+	 3.2 El estudiante o maestro recibió un correo de bienvenida.
+
+
+
+-Excepción ::
+	* No existan cupos suficientes para el alumno
+	* Si maestros solicitan de un curso no habilitado.
+
+-Comentario ::
+	- Este es quizas el caso mas imprtante al ser el comienzo del funcionamiento de la pagina

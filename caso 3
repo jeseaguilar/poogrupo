@@ -1,0 +1,30 @@
+CASO DE USO 3
+
+-CDU :CREAR NUEVOS CURSOS A DISPOSICION
+-fecha : 1/0 18.08.2019
+
+-Dependencia ::
+	- Tener el conocimiento y herramientas necesarias para impatir el curso
+	
+	- contar con el  personal docente preparado
+	
+-Precondición ::
+	-tener un buena prpa
+
+-Descripción ::
+	- caso de funcionamiento normal de para adquirir un nuevo cliente
+-Secuencia Normal ::
+	1.preparacion del curso 
+	2. Inicio de apertura de cupos 
+	 3.inicio del curso 
+	
+	 
+
+
+
+-Excepción ::
+	* No existan cupos suficientes para el alumno
+	* Si maestros solicitan de un curso no habilitado.
+
+-Comentario ::
+los nuevos curso buscan la satisfaccion del estudiante

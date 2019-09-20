@@ -1,0 +1,186 @@
+Caso de Uso	Usuario busca Curso en la Web
+Descripción	Este es el caso donde un usuario no registrado desea ver las ofertas académicas que posee la escuela y si le es de interés alguno de los cursos poder matricularse.
+Versión	2.0
+Pre-Condición	El Curso se debe impartir en la Escuela Aprendamos
+	Acciones	
+Usuario		Ingresar en la Web
+	Seleccionar ver información de cursos 
+	Usuario cierra la web		Mostrar el índex de la Web
+	Mostrar información de curso seleccionado
+	Cerrar Web	Web
+Excepciones		Si la acción #2 del usuario no se ejecuta si no que hace una filtración o búsqueda de un curso en especifico
+	Buscar en la Base de Datos los cursos disponibles y si se relaciona con la búsqueda mostrarlo en pantalla
+Post - Condición	Número de visitas del curso incrementa en la Base de Datos.
+
+Casos de Uso Proyecto POO 
+Escuela de Cursos “APRENDAMOS”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso de Uso	Usuario se Registra en la Web
+Descripción	Este es el caso donde un usuario hace su registro en la Web y poder gozar de los beneficios que esta ofrece como ser matricularse en uno de los cursos disponibles y obtener su certificado.
+Versión	2.0
+Pre-Condición	El Usuario debe tener los campos obligatorios requeridos completos.
+	Acciones	
+Usuario		Ingresar en la Web
+	Seleccionar registrarse 
+	Llenar los campos requeridos especialmente aquellos que son obligatorios.
+	Hacer clic en botón Registrarse en la pantalla.
+	Ver Pantalla principal
+		Mostrar el índex de la Web
+	Mostrar pantalla de registro
+	Obtener los datos de los campos llenados por el usuario.
+	Verificar que no quedo ningún campo obligatorio vacío.
+	Mandar los datos a la base de datos y completar Registro.
+	Mostrar en pantalla mensaje de éxito en el registro.
+	Dar privilegios de usuario registrado.
+	Mostrar pantalla principal.	Web
+Excepciones	Si la acción #4 por parte de la web no se ejecuta completamente pues volver a Mostrar la Pantalla de registro y seguir la secuencia nuevamente.
+Post - Condición	Número de usuarios registrados incrementa en la Base de Datos.
+
+
+
+
+
+
+
+
+
+
+Caso de Uso	Usuario se Matricula en un Curso
+Descripción	Este es el caso donde un usuario registrado se va a matricular en uno de los cursos disponibles en la Escuela Aprendamos
+Versión	2.0
+Pre-Condición	El Usuario debe estar registrado en la Escuela.
+	Acciones	
+Usuario		Ingresar en la Web
+	Seleccionar Iniciar Sesión.
+	Llenar los campos de inicio de sesión como ser su usuario y contraseña con que se registró.
+	Buscar el curso deseado y dar clic en matricularse.
+	Llenar los datos necesarios para recibir el curso como su instructor, sección, horario, lugar donde recibirá el curso.
+	Esperar verificación de éxito.
+		Mostrar el índex de la Web
+	Mostrar pantalla de Inicio de Sesión.
+	Obtener los datos de los campos requeridos para iniciar sesión.
+	Verificar los datos con la Base de Datos
+	Si la respuesta de la Base de Datos es afirmativa, mostrar la pantalla principal.
+	Mostrar la información necesaria para realizar la matricula del Curso.
+	Si se completaron todos los campos necesarios.
+	Verificar que el usuario no este matriculado en el curso y que hallan cupos disponibles.
+	Matricular el alumno (mandar los datos a la base de datos).
+	Mostrar mensaje de éxito y volverá pantalla Principal.	Web
+Excepciones	Si el usuario no ha cerrado su sesión proseguir después del paso #3.
+	Si el usuario ya está registrado en el curso mostrar mensaje de que ya posee Matricula en ese curso y volver a pantalla principal.
+Post - Condición	Número del curso Incremento en la Base de datos.
+
+
+
+Caso de Uso	
+Descripción	Este es el caso donde un usuario registrado se va a matricular en uno de los cursos disponibles en la Escuela Aprendamos
+Versión	2.0
+Pre-Condición	El Usuario debe estar registrado en la Escuela.
+	Acciones	
+Usuario		Ingresar en la Web
+	Seleccionar Iniciar Sesión.
+	Llenar los campos de inicio de sesión como ser su usuario y contraseña con que se registró.
+	Buscar el curso deseado y dar clic en matricularse.
+	Llenar los datos necesarios para recibir el curso como su instructor, sección, horario, lugar donde recibirá el curso.
+	Esperar verificación de éxito.
+		Mostrar el índex de la Web
+	Mostrar pantalla de Inicio de Sesión.
+	Obtener los datos de los campos requeridos para iniciar sesión.
+	Verificar los datos con la Base de Datos
+	Si la respuesta de la Base de Datos es afirmativa, mostrar la pantalla principal.
+	Mostrar la información necesaria para realizar la matricula del Curso.
+	Si se completaron todos los campos necesarios.
+	Verificar que el usuario no este matriculado en el curso y que hallan cupos disponibles.
+	Matricular el alumno (mandar los datos a la base de datos).
+	Mostrar mensaje de éxito y volverá pantalla Principal.	Web
+Excepciones	Si el usuario no ha cerrado su sesión proseguir después del paso #3.
+	Si el usuario ya está registrado en el curso mostrar mensaje de que ya posee Matricula en ese curso y volver a pantalla principal.
+Post - Condición	Número del curso Incremento en la Base de datos.
+
+Caso de Uso	Usuario quiere verificar Certificado
+Descripción	Este es el caso donde un usuario no registrado desea ver si el certificado que se le presento es válido y esta persona realmente aprobó el curso en la Escuela Aprendamos.
+Versión	2.0
+Pre-Condición	El Certificado debe ser de la Escuela y tener el código de verificación legible.
+	Acciones	
+Usuario		Ingresar en la Web
+	Seleccionar verificar Certificado. 
+	Llenar el campo donde pide código de certificado.
+	Hacer clic en verificar.
+	Esperar aprobación.
+	Usuario cierra la web		Mostrar el índex de la Web
+	Mostrar pantalla Verificar Certificado.
+	Obtener código del certificado desde el campo asignado en pantalla.
+	Verificar si el código de Certificado se encuentra en la base de Datos.
+	Mandar mensaje de aprobación.
+	Mostrar nuevamente pantalla Verificar Certificado.	Web
+Excepciones		Si la acción #4 de la web no se cumple mandar mensaje de desaprobación y que revise el código o intente con uno nuevo.
+Post - Condición	Consulta a la base de datos exitosa y mensaje de aprobación se ejecuta. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

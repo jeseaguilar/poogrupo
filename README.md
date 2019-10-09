@@ -1,5 +1,5 @@
 # poogrupo
-poo grupo casos de uso
+proyecto final esta en la carpeta proyeto final jese daniel 20141012902 dorian y carlos moran/poo
 
 
 20141012902 JESE DANIEL AGUILAR coord

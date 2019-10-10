@@ -74,7 +74,9 @@ o	Jese Daniel  Aguilar 20141012902            jeseaguilar
  
 o	Zona del administrados 
 
-o	
+o	https://raw.githubusercontent.com/jeseaguilar/poogrupo/rama/ruta/al/asset
+
+
 o	Zona del alumno
 o	         
 o	
